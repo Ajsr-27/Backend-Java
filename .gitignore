@@ -1,0 +1,83 @@
+# =========================
+# Java 
+# =========================
+
+# Compilación
+target/
+*.class
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# =========================
+# Sistema operativo
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Variables de entorno / secretos
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Spring Boot
+# =========================
+
+spring-shell.log
+
+# =========================
+# Otros
+# =========================
+
+*.bak
