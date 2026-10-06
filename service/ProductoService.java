@@ -25,7 +25,7 @@ public class ProductoService {
     }
 
     // Metodo de listado de productos
-    public List<Producto> listarProducto(){
+    public List<Producto> listarProductos(){
         return listaProductos;
     }
 
